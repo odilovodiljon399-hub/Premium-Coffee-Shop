@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Coffee Shop</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+    <nav class="navbar">
+
+        <h2 class="logo">☕ Coffee.</h2>
+
+        <ul class="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-btn">☰</div>
+
+    </nav>
+</header><section id="home" class="hero">
+
+    <div class="hero-text">
+        <h1>Premium Coffee Experience</h1>
+
+        <p>
+            Discover the rich taste of freshly brewed coffee
+            made from the world's finest beans.
+        </p>
+
+       <button onclick="openPopup()">Order Now</button>
+    </div>
+
+</section>
+<section id="menu" class="featured" data-aos="fade-up">
+
+    <h2>Featured Coffee</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <img src="images/espresso.jpg" alt="Espresso">
+            <h3>Espresso</h3>
+            <p>Strong and rich coffee.</p>
+            <span>$4.99</span>
+            <button onclick="openPopup()">Order Now</button>
+        </div>
+
+        <div class="card">
+            <img src="images/latte.jpg" alt="Latte">
+            <h3>Latte</h3>
+            <p>Milk with smooth espresso.</p>
+            <span>$5.99</span>
+            <button onclick="openPopup()">Order Now</button>
+        </div>
+
+        <div class="card">
+            <img src="images/cappuccino.jpg" alt="Cappuccino">
+            <h3>Cappuccino</h3>
+            <p>Classic Italian coffee.</p>
+            <span>$6.99</span>
+            <button onclick="openPopup()">Order Now</button>
+        </div>
+
+    </div>
+
+</section>
+<section id="about" class="why" data-aos="fade-right">
+
+    <h2>Why Choose Us</h2>
+
+    <div class="why-box">
+
+        <div class="box">
+            <h3>☕ Premium Beans</h3>
+            <p>Fresh coffee beans from the best farms.</p>
+        </div>
+
+        <div class="box">
+            <h3>👨‍🍳 Professional Barista</h3>
+            <p>Every cup is prepared with care.</p>
+        </div>
+
+        <div class="box">
+            <h3>🚚 Fast Delivery</h3>
+            <p>Fresh coffee delivered quickly.</p>
+        </div>
+
+    </div>
+
+</section>
+<section class="reviews" data-aos="zoom-in">
+
+    <h2>What Our Customers Say</h2>
+
+    <div class="review-container">
+
+        <div class="review-card">
+            <img src="images/user1.jpg" alt="">
+            <h3>James Wilson</h3>
+            <p>"The best coffee I've ever tasted. Highly recommended!"</p>
+            <span>★★★★★</span>
+        </div>
+
+        <div class="review-card">
+            <img src="images/user2.jpg" alt="">
+            <h3>Emma Brown</h3>
+            <p>"Amazing atmosphere and friendly staff."</p>
+            <span>★★★★★</span>
+        </div>
+
+        <div class="review-card">
+            <img src="images/user3.jpg" alt="">
+            <h3>Michael Lee</h3>
+            <p>"Fresh coffee and delicious desserts every time."</p>
+            <span>★★★★★</span>
+        </div>
+
+    </div>
+
+</section>
+<section id="gallery" class="gallery" data-aos="fade-up">
+
+    <h2>Our Gallery</h2>
+
+    <div class="gallery-grid">
+
+        <img src="images/gallery1.jpg" alt="">
+        <img src="images/gallery2.jpg" alt="">
+        <img src="images/gallery3.jpg" alt="">
+        <img src="images/gallery4.jpg" alt="">
+        <img src="images/gallery5.jpg" alt="">
+        <img src="images/gallery6.jpg" alt="">
+
+    </div>
+
+</section>
+<section id="contact" class="contact" data-aos="fade-left">
+
+    <h2>Contact Us</h2>
+
+    <div class="contact-container">
+
+        <div class="contact-info">
+            <h3>Visit Our Coffee Shop</h3>
+
+            <p>📍 Tashkent, Uzbekistan</p>
+            <p>📞 +998 90 123 45 67</p>
+            <p>📧 coffee@email.com</p>
+            <p>🕒 Mon - Sun: 08:00 - 22:00</p>
+        </div>
+
+        <form>
+
+            <input type="text" placeholder="Your Name">
+
+            <input type="email" placeholder="Your Email">
+
+            <textarea placeholder="Your Message"></textarea>
+
+            <button>Send Message</button>
+
+        </form>
+
+    </div>
+
+</section>
+<footer class="footer">
+
+    <h2>☕ Coffee.</h2>
+
+    <p>Premium Coffee Experience</p>
+
+    <div class="social">
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">Telegram</a>
+    </div>
+
+    <p class="copy">
+        © 2026 Coffee. All Rights Reserved.
+    </p>
+<section class="stats">
+
+    <div class="stat">
+        <h2>10K+</h2>
+        <p>Happy Customers</p>
+    </div>
+
+    <div class="stat">
+        <h2>50+</h2>
+        <p>Coffee Types</p>
+    </div>
+
+    <div class="stat">
+        <h2>15</h2>
+        <p>Professional Baristas</p>
+    </div>
+
+    <div class="stat">
+        <h2>24/7</h2>
+        <p>Service</p>
+    </div>
+
+</section>
+</footer>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+    AOS.init({
+        duration:1000,
+        once:true
+    });
+</script>
+<script src="script.js"></script>
+<div class="popup" id="popup">
+    <div class="popup-content">
+        <h2>☕ Thank You!</h2>
+        <p>Your order has been received.</p>
+        <button onclick="closePopup()">Close</button>
+    </div>
+</div>
+</body>
+</html>
